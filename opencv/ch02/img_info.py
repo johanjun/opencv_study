@@ -15,6 +15,7 @@ print('type(img1):', type(img1))
 print('img1.shape:', img1.shape)
 print('img2.shape:', img2.shape)
 print('img1.dtype:', img1.dtype)
+print('img2.dtype:', img2.dtype)
 
 # 영상의 크기 참조
 h, w = img2.shape[:2]
