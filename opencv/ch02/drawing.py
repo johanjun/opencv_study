@@ -15,11 +15,9 @@ cv2.circle(img, (300, 100), 60, (255, 0, 0), 3, cv2.LINE_AA)
 pts = np.array([[250, 200], [300, 200], [350, 300], [250, 300]])
 cv2.polylines(img, [pts], True, (255, 0, 255), 2)
 
-text = 'Hello? OpenCV ' + cv2.__version__
-cv2.putText(img, text, (50, 350), cv2.FONT_HERSHEY_SIMPLEX, 0.8, 
-            (0, 0, 255), 1, cv2.LINE_AA)
+text = "Hello? OpenCV" + cv2.__version__
+cv2.putText(img, text, (50, 350), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 1, cv2.LINE_AA)
 
-cv2.imshow("img", img)
+cv2.imshow('img', img)
 cv2.waitKey()
-cv2.destroyAllWindows()
-
+cv2.destroyAllWindows() 
